@@ -95,7 +95,3 @@ def insight_route():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-acc = generateAccuracy("Trump is dead")
-print(acc)
-print(generateInsight(acc, "Trump is dead"))
